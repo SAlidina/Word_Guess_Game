@@ -1,13 +1,13 @@
-var wordBankCats = ["Kitcat", "Nona", "Mowgli", "Nightfury", "Ninja", "Lightfury", "Itchy", "Scratchy", "Fluffybottom", "Snowflake", "Tiger", "Sylvester", "Simba", "Nala", "Scar", "Leo", "Luna"],
-    guessedLetters = [''],
-    selectedCatName = 0,
-    wrongGuesses = 0,
-    winsTotal = 0,
-    lossesTotal = 0,
-    limitGuesses = 9
-    isGameStarted = false,
-    audiobad = new Audio("assets/badmeow.mp3"),
-    audiogood = new Audio("assets/goodmeow.mp3"),
+var wordBankCats = ["Kitcat", "Nona", "Mowgli", "Nightfury", "Ninja", "Lightfury", "Itchy", "Scratchy", "Fluffybottom", "Snowflake", "Tiger", "Sylvester", "Simba", "Nala", "Scar", "Leo", "Luna"];
+var guessedLetters = [''];
+var selectedCatName = 0;
+var wrongGuesses = 0;
+var winsTotal = 0;
+var lossesTotal = 0;
+var limitGuesses = 9;
+var isGameStarted = false;
+var audiobad = new Audio("assets/badmeow.mp3");
+var audiogood = new Audio("assets/goodmeow.mp3");
 
 function reset() {
     guessedLetters = [''],
